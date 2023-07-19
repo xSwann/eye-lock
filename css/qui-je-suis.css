@@ -1,0 +1,118 @@
+body{
+    background-color: #003341;
+}
+
+.title {
+    margin-top: 1em;
+    font-size: 3em;
+    color:#ffffff;
+    font-weight: bold;
+}
+
+.img-main {
+    width: 20em;
+    margin-top: 2em;
+}
+
+.title-img-and-paragraph {
+    text-align: center;
+}
+
+.paragraph-main {
+    line-height: 150%;
+    margin-right: 10em;
+    margin-left: 10em;
+    margin-top: 2em;
+    font-size: 1.3em;
+    color: #ffffff;
+    margin-bottom: 2em;
+}
+
+.article-2-sides {
+    display: flex;
+}
+
+.img-article-2-sides {
+width:50% ;
+height: 90vh;
+}
+
+.text {
+margin-left: 2em;
+margin-right: 2em;
+}
+
+.article-paragraph-title{
+font-size: 3.5em;
+font-weight: 800;
+margin-bottom: 1em;
+}
+
+.article-paragraph{
+    
+    line-height: 170%;
+    font-size: 1.4em;
+    margin-bottom: 2em;
+}
+
+.text-box{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.link-button {
+    font-size: 1.3em;
+    color: white;
+    border: #057d9e solid;
+    background-color: #057d9e;
+    border-radius: 1em;
+    padding-top: 0.1em;
+    padding-bottom: 0.3em;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+}
+
+.link-button:hover {
+    color: #057d9e;
+    background-color: white;
+}
+
+
+
+/*white bg article*/
+
+.title-white-bg-article {
+color:#003341 ;
+}
+
+
+/*colored bg article*/
+
+.title-colored-bg-article{
+color: #ffffff;
+}
+
+.paragraph-colored-bg-article{
+color: #ffffff;
+}
+
+.text-box-colored-bg-article{
+background-color: #003341;
+}
+
+.button-colored-bg-article{
+color: white;
+    background-color:#057d9e;    
+}
+
+.footer-box{
+    color: #ffffff;
+}
+
+
+
+
+
+

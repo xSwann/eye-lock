@@ -1,0 +1,95 @@
+html {
+    font-family: sans-serif;
+    font-family: 'Exo 2', sans-serif;
+}
+
+
+
+/*HEADER*/
+
+header {
+    display: flex;
+    align-items: last baseline;
+    padding-top: 1.5em;
+    gap: 3em;
+    padding-left: 6em;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+.icon {
+    display: none;
+}
+
+.title-logo {
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+    padding-bottom: 0.2em;
+}
+
+.title-decoupe {
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: 800;
+
+
+}
+
+.logo {
+    width: 3em
+}
+
+#navbar {
+    display: flex;
+    padding-bottom: 1em;
+}
+
+.nav-items {
+    display: flex;
+    gap: 2em;
+
+}
+
+.nav-item {
+    color: black;
+    font-size: 1em;
+    font-weight: 500
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+.navbarOffsetMargin {
+    padding-top: 60px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.page-title{
+    font-size: 3em;
+    text-align: center;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    gap: 1em;
+}
+
+.footer-element:hover {
+    text-decoration: underline;
+}

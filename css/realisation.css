@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+article {
+    width: 25vw;
+   text-align: center; 
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    color:#057d9e ;
+}
+
+img {
+    text-align: center;
+    width: 25vw;
+}
+
+p {
+margin-top: 1em;
+font-size: 1.2em;
+text-align: start;
+line-height: 150%;
+}

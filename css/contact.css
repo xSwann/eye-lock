@@ -1,0 +1,27 @@
+main{
+margin-top: 3em;
+}
+
+.textarea {
+    width: 250px;
+    height: 150px;
+    text-align: start;
+    text-wrap: wrap
+    
+}
+
+.labeleinput{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 50%;
+    line-height: 2.5em;
+}
+
+.labeleinput{}
+
+input{
+    height: 2em;
+    border: 1px solid black;
+    border-radius: 10px;
+}

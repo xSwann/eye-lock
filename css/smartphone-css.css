@@ -1,0 +1,104 @@
+@media screen and (max-width: 767px) {
+
+    html {
+        margin-left: 0;
+        margin-top: 0;
+        margin-right: 0;      
+    }
+/*HEADER*/
+
+    header {
+        position: sticky;
+        top: 0;
+        display: flex;
+        margin-top: 0;
+        padding-left: 0;
+        padding-top: 0;
+        width: 100%;
+    }
+
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    header .nav-items {
+        display: none;
+        position: absolute;
+        right: 0;
+    }
+
+    .title-logo {
+        background-color: white;
+        
+    }
+
+
+
+
+    /* Style navigation menu links */
+    header a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    .nav-item {
+        background-color: #333;
+        color: #ddd;
+    }
+
+    /* Style the hamburger menu */
+    header a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    /* Add a grey background color on mouse-over */
+    header a:active {
+        transition: 600ms;
+        background-color: #ddd;
+        color: black;
+    }
+
+    /* Style the active link (or home/logo) */
+    .active {
+        color: white;
+    }
+
+    .top-main {
+        margin-right: 1em;
+        margin-left: 1em;
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .paragraph-title {
+        font-size: 1.8em;
+    }
+
+    
+
+
+    .list-title {
+        font-size: 1em;
+        margin-top: 1em;
+    }
+
+    .list-discover{
+        line-height: 120%
+    }
+
+    .discover-item-li {
+        margin-top: 1em;
+        font-size: 0.8em;
+        
+    }
+
+
+
+    .img-main {
+        width: 15em;
+    }
+}
