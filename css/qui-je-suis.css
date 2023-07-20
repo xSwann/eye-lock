@@ -1,9 +1,9 @@
-body{
+main{
     background-color: #003341;
 }
 
 .title {
-    margin-top: 1em;
+    
     font-size: 3em;
     color:#ffffff;
     font-weight: bold;

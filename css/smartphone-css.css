@@ -101,4 +101,9 @@
     .img-main {
         width: 15em;
     }
+
+    .main-text {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
 }

@@ -1,12 +1,27 @@
-.container {
+.container-article-two-img {
     display: flex;
     justify-content: center;
     gap: 2em;
 }
 
+.container-other {
+    display: flex;
+justify-content: center;
+}
+
 article {
     width: 25vw;
    text-align: center; 
+}
+
+.article-two-img {
+    width: 80vw;
+   
+}
+
+.other-articles {
+ display: flex;   
+ gap: 2em;
 }
 
 h2 {
@@ -17,7 +32,8 @@ h2 {
     color:#057d9e ;
 }
 
-img {
+.article-img {
+
     text-align: center;
     width: 25vw;
 }
@@ -27,4 +43,10 @@ margin-top: 1em;
 font-size: 1.2em;
 text-align: start;
 line-height: 150%;
+}
+
+.imgs {
+    display: flex;
+    gap: 2em;
+    justify-content: center; 
 }

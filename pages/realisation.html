@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,6 +18,7 @@
     <script src="/navbar-script/index.js" defer></script>
     <title>Eye-lock le blog de vido</title>
 </head>
+
 <body>
     <header>
         <div class="title-logo">
@@ -33,7 +35,18 @@
                 <li><a class="nav-item" href="/pages/qui-je-suis.html">Qui suis-je ?</a></li>
                 <li><a class="nav-item" href="/pages/ouvertures.html">Ouvertures</a></li>
                 <li><a class="nav-item" href="/pages/realisation.html">Réalisations</a></li>
-                <li><a class="nav-item" href="mailto:q@eye-lock.com">Contact</a></li>
+                <li>
+                    <div class="contactez-moi-box">
+                        <p class="realisation-title">Besoin d'un consultant pour :</p>
+                        <ul class="realisation-list">
+                            <li class="realisation-list-item">-Une ouverture de coffre ?</li>
+                            <li class="realisation-list-item">-Un outil ?</li>
+                            <li class="realisation-list-item">-Une serrure ?</li>
+                        </ul>
+
+                        <a class="contact-button" href="mailto:q@eye-lock.com">Contactez moi</a>
+                    </div>
+                </li>
             </ul>
         </div>
         <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
@@ -45,26 +58,36 @@
 
 
     <main>
-    <div class="container">
-        <article>
-        <h2>Q, serrurier innovant</h2>
-        <img src="/images/realisation-img-1.webp">
-        <p>Il y a déjà 28 ans, avant même la fin de mon CAP, le premier outil de crochetage des sûretés Izis de seconde
-            génération est conceptualisé à partir de pièces détachées de serrures (Cavers+Vak+Picard) .</p>
-        </article>
-        
-        <article>
-            <h2>Consultations</h2>
-            <img src="/images/realisation-img-2.webp">
-        <p>Etudes des sûretés , réalisation d'outillage et techniques associés</p>
-        </article>
+        <div class="container-article-two-img">
+            <article class="article-two-img">
+                <h2>Q, serrurier innovant</h2>
+                <div class="imgs">
+                    <img class="article-img" src="/images/realisation-img-1.webp">
+                    <img class="article-img" src="/images/ouverture-img-mon-histoire.webp">
+                </div>
+                <p>Il y a déjà 28 ans, avant même la fin de mon CAP, le premier outil de crochetage des sûretés Izis de
+                    seconde
+                    génération est conceptualisé à partir de pièces détachées de serrures (Cavers+Vak+Picard) .</p>
+                <p>Et finalement.. le MxB-b&c. Je sais que la sensation du TAC n'est pas donné a tous ....pour aider mes confrères spécialistes du
+                    coffre-fort, je me concentre sur des concepts oubliés et des capacités innovantes de réalisation
+                    .Cet outil a nécessité 20 années de conception pour un achèvement ponctué d'évolutions.....</p>
+            </article>
+        </div>
+        <div class="container-other">
+            <div class="other-articles">
+                <article>
+                    <h2>Consultations</h2>
+                    <img class="article-img" src="/images/realisation-img-2.webp">
+                    <p>Etudes des sûretés , réalisation d'outillage et techniques associés</p>
+                </article>
 
-        <article>
-            <h2>Fabrications</h2>
-            <img src="/images/realisation-img-3.webp">
-        <p>Prototypes et adaptations de sûreté .</p>
-    </article>
-        </div> 
+                <article>
+                    <h2>Fabrications</h2>
+                    <img class="article-img" src="/images/realisation-img-3.webp">
+                    <p>Prototypes et adaptations de sûreté .</p>
+                </article>
+            </div>
+        </div>
     </main>
 
     <footer>
@@ -76,4 +99,5 @@
 
 
 </body>
+
 </html>

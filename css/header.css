@@ -4,18 +4,55 @@ html {
 }
 
 
-
+.contactez-moi-box {
+    border: #057d9e solid 2px;
+    padding: 0.2em;
+    display: flex;
+    border-radius: 1em;
+    margin-top: -2em;
+    gap: 0.5em;
+ }
+ 
+ 
+ .realisation-title{
+ color:#057d9e ;
+ font-weight: bold;
+ }
+ 
+ .realisation-list {
+     width: 10em;
+     line-height: 120%;
+ }
+ 
+ .contact-button {
+     color: white;
+     border: #057d9e solid;
+     background-color: #057d9e;
+     border-radius: 1em;
+     padding-top: 0.1em;
+     padding-bottom: 0.3em;
+     padding-left: 0.3em;
+     padding-right: 0.3em;
+     height: 2em;
+     align-items: center;
+ }
+ 
+ .contact-button:hover {
+     color: #057d9e;
+     background-color: white;
+ }
+ 
 /*HEADER*/
 
 header {
     display: flex;
-    align-items: last baseline;
     padding-top: 1.5em;
-    gap: 3em;
+    gap: 2em;
     padding-left: 6em;
     background-color: white;
     position: sticky;
-    top: 0;
+    top: 1em;
+    margin-top: 1em;
 }
 
 .icon {
@@ -27,6 +64,7 @@ header {
     gap: 1.2rem;
     align-items: center;
     padding-bottom: 0.2em;
+    margin-top: -4em;
 }
 
 .title-decoupe {
@@ -43,18 +81,15 @@ header {
 
 #navbar {
     display: flex;
-    padding-bottom: 1em;
 }
 
 .nav-items {
     display: flex;
     gap: 2em;
-
 }
 
 .nav-item {
     color: black;
-    font-size: 1em;
     font-weight: 500
 }
 
