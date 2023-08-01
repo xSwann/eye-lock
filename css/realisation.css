@@ -38,7 +38,7 @@ h2 {
     width: 25vw;
 }
 
-p {
+.paragraph {
 margin-top: 1em;
 font-size: 1.2em;
 text-align: start;
