@@ -4,14 +4,15 @@ html {
 }
 
 
+
 .contactez-moi-box {
-    border: #057d9e solid 2px;
+    
     padding: 0.2em;
     display: flex;
     border-radius: 1em;
     margin-top: -2.5em;
     gap: 0.5em;
-    align-items: center;
+    align-items: first baseline
     
  }
  
@@ -32,34 +33,39 @@ font-size: 1.2em;
  
  .contact-button {
      color: white;
-     border: #057d9e solid;
-     background-color: #057d9e;
+     border: solid 1px #057d9e;
+     color: #057d9e;
+     background-color: white;
      border-radius: 1em;
-     padding-top: 0.3em;
-     padding-bottom: 0.6em;
-     padding-left: 0.3em;
-     padding-right: 0.3em;
+     padding-top: 0.2em;
+     padding-bottom: 0.4em;
+     padding-left: 0.2em;
+     padding-right: 0.2em;
+     font-size: 1.2em;
     
      align-items: center;
  }
  
  .contact-button:hover {
-     color: #057d9e;
-     background-color: white;
+     border: #057d9e solid;
+     background-color: #057d9e;
+     color: white;
+     
  }
  
 /*HEADER*/
 
 header {
     display: flex;
-    padding-top: 1.5em;
     gap: 2em;
-    padding-left: 6em;
+    padding-top: 1em;
+    padding-left: 1em;
     padding-bottom: 1em;
     background-color: white;
     position: sticky;
     top: 0;
-    padding-top: 3em;
+    height: 7vh;
+   
 }
 
 .icon {
@@ -69,19 +75,21 @@ header {
 .title-logo {
     display: flex;
     gap: 1.2rem;
-    align-items: center;
-    padding-bottom: 0.2em;
-    margin-top: -4em;
+    
+    align-items: last baseline;
+    
 }
 
 .title-decoupe {
     font-size: 1.5em;
     font-style: italic;
     font-weight: 800;
+   
 }
 
 .logo {
-    width: 3em
+    width: 3em;
+    object-fit: contain;
 }
 
 #navbar {
@@ -91,11 +99,14 @@ header {
 .nav-items {
     display: flex;
     gap: 2em;
+    align-items: flex-end;
 }
 
 .nav-item {
     color: black;
-    font-weight: 500
+    font-weight: 500;
+    display: flex;
+    white-space: nowrap;
 }
 
 .nav-item:hover {
@@ -128,11 +139,13 @@ a {
     margin-top: 2em;
     margin-bottom: 1em;
     gap: 1em;
+    
+}
+.footer-element {
+color: black;
 }
 
-.footer-element:hover {
-    text-decoration: underline;
-}
+
 
 .actual {
     text-decoration: underline;

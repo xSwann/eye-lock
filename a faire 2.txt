@@ -1,0 +1,49 @@
+
+POUR LUNDI SOIR
+
+
+retravailler le "besoin d'un consultant" le mettre sur la meme ligne que la nav bar etselon les tailles d'ecran !!
+
+besoin d'un consultant pour une ouverture de coffre ?
+                            un outil ou une serrure ?
+
+besoin d'un en noir consultant en bleu !?
+
+plusieurs versions
+inverser les couleurs sur "contacter moi"!!
+
+
+une ouverture de coffee
+un outil ou une serrure  CONTACTEZ MOI
+
+enlever le scroll sur la page d'acceuil !!?
+
+tout les articles en 100vh !!
+
+enlever le bouton "cote cv" !!
+
+en bas d'ouverture, virer les 3 dernieres photos !!
+
+realisation mettre une espace entre Q et la virgule
+remplacer la photo dans fabrication par mail !!
+
+qui suis je remplacer photo serrure "renfiorcer et initier" essayer de caler les 2 photos du mail!!?
+
+chaque boutton "quel outil" marqer "1" "2" "3" etc pour qu'il m'envoie des liens aussi ceux sur l'acceuil !!
+
+essayer de faire en sorte que quand on clique sur les liens ça ouvre un nouvel onglet "_blank" !!
+
+les boutons de l'acceuil renvoient a un endroit !!
+mes competences va a ouverture
+mes creation va a realisation
+
+passer "ouvreur" dans l'acceuil cliquable et changer la coulezur en cas de passage de souris !
+
+qui suis je "
+
+EN BAS A LA PLACE DE MONTION LEGAL ETC "COPIRIGHT jean christophe cuniasse 2023 credit photographique: me contacter"
+
+
+
+
+
