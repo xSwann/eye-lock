@@ -1,11 +1,11 @@
-main{
+main {
     background-color: #003341;
 }
 
 .title {
-    
+
     font-size: 3em;
-    color:#ffffff;
+    color: #ffffff;
     font-weight: bold;
 }
 
@@ -33,29 +33,29 @@ main{
 }
 
 .img-article-2-sides {
-width:50% ;
-height: 90vh;
+    width: 50%;
+    height: 90vh;
 }
 
 .text {
-margin-left: 2em;
-margin-right: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
-.article-paragraph-title{
-font-size: 3.5em;
-font-weight: 800;
-margin-bottom: 1em;
+.article-paragraph-title {
+    font-size: 3.5em;
+    font-weight: 800;
+    margin-bottom: 1em;
 }
 
-.article-paragraph{
-    
+.article-paragraph {
+
     line-height: 170%;
     font-size: 1.4em;
     margin-bottom: 2em;
 }
 
-.text-box{
+.text-box {
     background-color: white;
     display: flex;
     align-items: center;
@@ -84,35 +84,79 @@ margin-bottom: 1em;
 /*white bg article*/
 
 .title-white-bg-article {
-color:#003341 ;
+    color: #003341;
 }
 
 
 /*colored bg article*/
 
-.title-colored-bg-article{
-color: #ffffff;
+.title-colored-bg-article {
+    color: #ffffff;
 }
 
-.paragraph-colored-bg-article{
-color: #ffffff;
+.paragraph-colored-bg-article {
+    color: #ffffff;
 }
 
-.text-box-colored-bg-article{
-background-color: #003341;
+.text-box-colored-bg-article {
+    background-color: #003341;
 }
 
-.button-colored-bg-article{
-color: white;
-    background-color:#057d9e;    
+.button-colored-bg-article {
+    color: white;
+    background-color: #057d9e;
 }
 
-.footer-box{
+.footer-box {
     color: #ffffff;
 }
 
 
+@media screen and (max-width: 767px) {
 
+    
+    .paragraph-main {
+        display: flex;
+        justify-content: center;
+        margin-right: 1em;
+        margin-left: 1em;
+    }
 
+    .article-2-sides {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .img-article-2-sides {
+        width: 100%;
+        height: 50vh;
+    }
 
+    .text {
+        margin-top: 2em;
+        margin-left: 2em;
+        margin-right: 2em;
+        margin-bottom: 2em;
+    }
+
+    .article-paragraph-title {
+        font-size: 3.5em;
+        font-weight: 800;
+        margin-bottom: 1em;
+    }
+
+    .article-paragraph {
+
+        line-height: 170%;
+        font-size: 1.4em;
+        margin-bottom: 2em;
+    }
+
+    .text-box {
+       
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+}
