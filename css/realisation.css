@@ -33,7 +33,6 @@ h2 {
 }
 
 .article-img {
-
     text-align: center;
     width: 25vw;
 }
@@ -49,4 +48,37 @@ line-height: 150%;
     display: flex;
     gap: 2em;
     justify-content: center; 
+}
+
+@media screen and (max-width: 767px) { 
+    article {
+        width:90vw;
+       text-align: center; 
+    }
+
+    .container-other {
+        display: flex;
+    justify-content: center
+    margin-left: 3em;
+    }
+
+    .article-img {
+        width: 45vw;
+    }
+
+   
+    .other-articles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+    .imgs {
+        gap: 1em;
+    }
+
 }
