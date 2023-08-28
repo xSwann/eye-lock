@@ -136,3 +136,48 @@ strong {
 .nsp-img {
     max-height: 20em;
 }
+
+@media screen and (max-width: 767px) {
+    .article-one-image {
+        display: flex;
+        flex-direction: column;
+        padding-top: 2em;
+    }
+
+    .title-and-text {
+        max-width: 100%;
+    padding-left: 2em;
+    padding-right: 2em;
+    }
+
+    .single-img-article {
+        max-width: 100vw;
+        height: auto;
+    }
+
+    .trois-img-box {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .trois-img-img {
+        max-width: 100vw;
+        height: auto;
+    }
+
+    .deux-img-img {
+        max-width: 100vw;
+        height: auto;
+    }
+
+    .deux-img-box {
+        display: flex;
+        flex-direction: column;
+        gap: 0; 
+    }
+
+    .nsp-img {
+        max-width: 100vw;
+        height: auto;  
+    }
+}

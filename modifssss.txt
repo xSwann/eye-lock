@@ -1,0 +1,3 @@
+mettre l'encart du header mobile sur le coté droit
+
+acceuil collé version pc

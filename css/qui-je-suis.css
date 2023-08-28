@@ -32,6 +32,7 @@ main {
     display: flex;
 }
 
+
 .img-article-2-sides {
     width: 50%;
     height: 90vh;
@@ -125,6 +126,11 @@ main {
     .article-2-sides {
         display: flex;
         flex-direction: column;
+    }
+
+    .reverse-article {
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     .img-article-2-sides {

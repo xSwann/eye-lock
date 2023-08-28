@@ -106,4 +106,45 @@
         margin-left: 1em;
         margin-right: 1em;
     }
+
+    .realisation-title{
+        background-color: white;
+        color:#057d9e ;
+        font-weight: bold;
+       font-size: 1.2em;
+       padding-bottom: 0.5em;
+       padding-top: 0.3em;
+       padding-left: 1em;
+       padding-right: 1em;
+       
+        }
+        
+        .realisation-list {
+            width: 10em;
+            line-height: 120%;
+            display: flex;
+           flex-wrap: wrap;
+        }
+
+        .contact-button {
+            color: white;
+            border: #057d9e solid;
+            background-color: #057d9e;
+            color: white;
+            border-radius:0;
+            padding-top: 0.2em;
+            padding-bottom: 0.4em;
+            padding-left: 1em;
+            padding-right: 0.2em;
+            font-size: 1.2em;
+           
+            align-items: center;
+        }
+        
+        .contact-button:hover {
+           
+             border: solid 1px #057d9e;
+            color: #057d9e;
+            background-color: white;
+        }
 }
