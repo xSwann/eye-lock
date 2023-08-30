@@ -3,6 +3,11 @@ html {
     font-family: 'Exo 2', sans-serif;
 }
 
+.title-logo-link {
+    text-decoration:none;
+    color:black;
+}
+
 
 
 .contactez-moi-box {

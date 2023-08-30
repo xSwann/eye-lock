@@ -50,10 +50,9 @@ main {
 }
 
 .article-paragraph {
-
-    line-height: 170%;
+    line-height: 150%;
     font-size: 1.4em;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
 }
 
 .text-box {

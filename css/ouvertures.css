@@ -144,6 +144,10 @@ strong {
         padding-top: 2em;
     }
 
+    img {
+        margin: auto;
+    }
+
     .title-and-text {
         max-width: 100%;
     padding-left: 2em;
